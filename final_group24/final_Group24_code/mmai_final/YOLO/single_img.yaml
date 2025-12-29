@@ -1,0 +1,13 @@
+# single_img.yaml
+
+# 這裡請填寫你的專案絕對路徑，或者相對於執行位置的路徑
+# 如果你是在 ppt_final_project 目錄下執行指令，這樣寫是可以的：
+path: ./datasets/dataset_single 
+train: train/images
+val: val/images
+
+# 類別數量
+nc: 1
+
+# 類別名稱
+names: ['slide_image']

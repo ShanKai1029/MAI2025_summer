@@ -1,0 +1,12 @@
+# ppt_detect.yaml (使用絕對路徑修正版)
+
+# 這裡直接寫死絕對路徑，YOLO 就不會迷路了
+path: /local/shankai/Multimodal/final/datasets/ppt_sorted
+
+# 相對於上面的 path，圖片在哪裡
+train: train/images
+val: val/images
+
+# 類別設定
+nc: 1
+names: ['slide_image']

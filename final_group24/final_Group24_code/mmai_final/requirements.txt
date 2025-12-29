@@ -1,0 +1,59 @@
+# ----------------------------
+# Core deep learning
+# ----------------------------
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ----------------------------
+# Diffusion / Inpainting
+# ----------------------------
+diffusers>=0.24.0
+transformers>=4.35.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+# `cached_download` was removed in newer releases; keep an upper bound for diffusers.
+huggingface_hub>=0.19.4,<0.22
+
+# ----------------------------
+# Dataset utilities
+# ----------------------------
+datasets>=2.14.0
+
+# ----------------------------
+# LoRA / PEFT
+# ----------------------------
+peft>=0.7.0
+
+# ----------------------------
+# YOLO (Ultralytics)
+# ----------------------------
+ultralytics>=8.0.0
+
+# ----------------------------
+# Metrics
+# ----------------------------
+lpips>=0.1.4
+ftfy>=6.1.0
+regex>=2023.6.0
+tqdm>=4.66.0
+
+# ----------------------------
+# CLIP (OpenAI)
+# ----------------------------
+git+https://github.com/openai/CLIP.git
+
+# ----------------------------
+# Image / numeric utils
+# ----------------------------
+pillow>=9.5.0
+opencv-python>=4.8.0
+numpy>=1.23.0
+scipy>=1.10.0
+
+# ----------------------------
+# General utils
+# ----------------------------
+pyyaml>=6.0.0
+requests>=2.31.0
+tensorboard>=2.14.0
